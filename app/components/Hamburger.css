@@ -1,0 +1,40 @@
+.hoverUnderline {
+  position: relative;
+}
+
+.hoverUnderline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  border-radius: 2px;
+  bottom: 0;
+  top: 100px;
+  left: 0;
+  background-color: #e9c04e;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+.hoverUnderline:hover::after {
+  transform: scaleX(1);
+}
+.hoverUnderline.Link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  border-radius: 2px;
+  bottom: 0;
+  top: 70px;
+  left: 0;
+  background-color: #e9c04e;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+.hoverUnderline.Link:hover::after {
+  transform: scaleX(1);
+}
