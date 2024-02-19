@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { TypeAnimation } from "../Libraries";
 import ThreeDCard from "./ThreeDCard";
 
@@ -69,12 +70,16 @@ export default function HeroSection() {
           </span>
         </p>
         <div className="flex flex-col lg:flex-row lg:justify-end lg:gap-5 gap-2">
+          <Link href="/contact">
           <button className="bg-gold bg-opacity-85 py-2 px-4 rounded-3xl font-bold text-white hover:bg-opacity-55 hover:text-gray-800 border-2 border-gray-400 hover:border-2 hover:border-gold transition-all duration-300">
             CONTACT ME
           </button>
+          </Link>
+          <Link href="/projects">
           <button className="bg-gold bg-opacity-45 py-2 px-4 rounded-3xl font-bold text-gray-800 hover:bg-opacity-85 hover:text-white border-2 border-gold hover:border-2 hover:border-gray-400 transition-all duration-300">
-            DOWNLOAD CV
+            PROJECTS
           </button>
+          </Link>
         </div>
       </div>
       <div className="">
