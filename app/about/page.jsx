@@ -68,8 +68,8 @@ export default function AboutPage() {
             master's unlocked the secrets of communication, while an intensive
             web dev course equipped me to build modern apps and websites. I
             continuously embrace cutting-edge tech, ensuring my projects are
-            fresh and innovative. Want proof? Have a look at my recent <Link href="/projects"><span className=" underline-offset-2 underline font-bold">Projects</span></Link> or some of my publicly available  <Link href="https://uni-freiburg.academia.edu/maziarpedrami" target="blank"><span className=" underline-offset-2 underline font-bold">Academic Papers</span></Link>. Dive in and let's create something remarkable
-            together! Have A look at my recent certificates and publications on the left ⬅️
+            fresh and innovative. Want proof? Have a look at my recent <Link href="/projects"><span className=" underline-offset-2  underline font-bold">Projects</span></Link> or some of my publicly available  <Link href="https://uni-freiburg.academia.edu/maziarpedrami" target="blank"><span className=" underline-offset-2 underline font-bold ">Academic Papers</span></Link>. Dive in and let's create something remarkable
+            together! Have A look at my recent certificates and publications <span className=" hidden lg:inline-block ">on the left ⬅️</span><span className=" inline-block lg:hidden">Up top 🡹</span>
           </p>
           <p>
             Have I picked your interest? Then what are you waiting for?Let's explore how I can translate your vision into something remarkable.😊
